@@ -1,7 +1,11 @@
-name: Node CI
+# This file wont do us much good in this location, make sure you change the path as directed to continue!
 
-on: [push]
+name: Docker CD
 
+on:
+  push:
+    paths:
+      - "**Dockerfile**"
 jobs:
   build:
     runs-on: ubuntu-latest
