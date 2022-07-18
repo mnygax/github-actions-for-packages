@@ -63,6 +63,6 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
-        repository: mikolaj-nyga/github-actions-for-packages/tic-tac-toe
+        repository: mnygax/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
 
